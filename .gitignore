@@ -7,7 +7,7 @@
 
 # testing
 /coverage
-/stories
+/src/stories
 # production
 /build
 
