@@ -15,10 +15,10 @@ export const BtnA = Template.bind({});
 BtnA.args={
     bgColor: 'secondary',
     title: 'Submit',
-    onclick:() => alert('Form validation submited successfully'),
 }
 export const BtnB = Template.bind({});
 BtnB.args={
     ...BtnA.args,
-    bgColor: 'primary'
+    bgColor: 'primary',
+    onClick:() => alert('Form validation submited successfully'),
 } 

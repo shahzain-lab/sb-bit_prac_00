@@ -3,17 +3,17 @@ import './button.css';
 
 //interface
 export interface BtnProps{
-  onclick: () => void;
-  bgColor: string;
-  title: string;
+  onClick?: () => void;
+  bgColor?: string;
+  title?: string;
 }
 
-export const Button: React.FC<BtnProps> =({bgColor,title, onclick })=> {
+export const Button: React.FC<BtnProps> =({bgColor,title, onClick })=> {
   return(
     <div className="main-div"> 
        <button
         className={`bg--${bgColor}`}
-         onClick={onclick}
+        onClick={onClick}
          >{title}</button>
     </div>
   )
