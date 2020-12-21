@@ -1,0 +1,31 @@
+
+.bg--secondary{
+    background: #c20081;
+    outline: none;
+    padding: 10px 150px;
+    font-weight: 500;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: .2s;
+}
+.bg--secondary:hover{
+    background: #fff;
+    color: #c20081;
+    border:2px dotted #c20081;
+}
+
+/* ///Second Btn// */
+.bg--primary{
+    background-color: #646464;
+    outline: none;
+    padding: 10px 150px;
+    font-weight: 500;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: .2s;
+}
+.bg--primary:hover{
+    background: #fff;
+    color: #646464;
+    border:2px dotted #646464;
+}
